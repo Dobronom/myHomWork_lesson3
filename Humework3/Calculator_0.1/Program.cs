@@ -90,10 +90,20 @@ while (check == 0)
                     }
                 case "√":
                     {
-                        ResultMemory = Math.Sqrt(ResultMemory);
-                        Console.WriteLine("укажите тип операции");
-                        action = Console.ReadLine();
-                        break;
+                        if (ResultMemory > 0) 
+                        {
+                            ResultMemory = Math.Sqrt(ResultMemory);
+                            Console.WriteLine("укажите тип операции");
+                            action = Console.ReadLine();
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Нельзя посчитать квадратный корень отрецательного числа.");
+                            Console.WriteLine("Если желаете продолжить нажмите \"0\"");
+                            check = Convert.ToDouble(Console.ReadLine());
+                            break;
+                        }
                     }
                 default:
                     {
