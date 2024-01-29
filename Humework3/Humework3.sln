@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimOfTheyEar", "Humework3\TimOfTheyEar.csproj", "{41036FEA-E669-428E-AC9C-E18F14A958B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimOfTheyEar", "Humework3\TimOfTheyEar.csproj", "{41036FEA-E669-428E-AC9C-E18F14A958B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOdd", "EvenOdd\EvenOdd.csproj", "{C5AF60AC-E195-48FD-8AF9-2398C3277D7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenOdd", "EvenOdd\EvenOdd.csproj", "{C5AF60AC-E195-48FD-8AF9-2398C3277D7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temperature", "temperature\temperature.csproj", "{95A54B33-83D0-40A5-8129-34ACEA7A0132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "temperature", "temperature\temperature.csproj", "{95A54B33-83D0-40A5-8129-34ACEA7A0132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rainbow", "rainbow\rainbow.csproj", "{31E142AB-BA63-426A-A9BE-40516A6B7B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rainbow", "rainbow\rainbow.csproj", "{31E142AB-BA63-426A-A9BE-40516A6B7B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator", "calculator\calculator.csproj", "{0C15813A-A37E-4EEE-91CB-67C1E5883480}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculator", "calculator\calculator.csproj", "{0C15813A-A37E-4EEE-91CB-67C1E5883480}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_0.1", "Calculator_0.1\Calculator_0.1.csproj", "{5C9A94A3-CFBD-4851-B910-115BB01406F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0C15813A-A37E-4EEE-91CB-67C1E5883480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C15813A-A37E-4EEE-91CB-67C1E5883480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C15813A-A37E-4EEE-91CB-67C1E5883480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9A94A3-CFBD-4851-B910-115BB01406F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9A94A3-CFBD-4851-B910-115BB01406F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9A94A3-CFBD-4851-B910-115BB01406F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9A94A3-CFBD-4851-B910-115BB01406F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
